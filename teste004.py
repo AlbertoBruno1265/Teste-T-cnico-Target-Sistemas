@@ -6,7 +6,7 @@ estados = list()
 total_faturamento = 0
 
 # Abre o arquivo .CSV e armazena suas linhas em uma lista chamada "linhas"
-with open("ex004.csv") as arquivo:
+with open("teste004.csv") as arquivo:
     linhas = arquivo.readlines()
 
 # Itera sobre cada uma das linhas do arquivo a partir da segunda linha para ignorar o cabeçalho
